@@ -72,11 +72,20 @@ button:hover {
     font-size: 20px;
     padding: 15px 40px;
   }
-  main {
-    margin: 0 30px;
-  }
+menu {
+  padding-top: 0;
+}
+
   body {
     background-position: center; 
+  }
+
+  p {
+    font-size: calc(0.5em + 2vw);
+  }
+
+  h1 {
+    font-size: calc(0.7em + 7vw);
   }
 }  
 
