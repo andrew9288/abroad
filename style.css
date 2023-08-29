@@ -66,9 +66,13 @@ button:hover {
   button {
     font-size: 20px;
     padding: 15px 40px;
+    margin-bottom: auto;
   }
   main {
     margin: 0 30px;
+  }
+  .block {
+    background-position: center; 
   }
 }  
 
