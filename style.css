@@ -63,6 +63,8 @@ button:hover {
 }
 
 .opisanie {
+  display: flex;
+  flex-direction: column;
   justify-content: space-between;
 }
 
