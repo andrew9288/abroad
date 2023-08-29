@@ -57,6 +57,9 @@ button {
   padding: 20px 60px;
   font-size: 34px;
   font-family: inherit;
+  position: absolute;
+  bottom: 2vh;
+
 }
 
 button:hover {
