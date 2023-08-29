@@ -3,16 +3,19 @@
   src: url(Kharkiv\ Tone\ 04.10.2020.ttf);
 }
 
+html {
+  background: linear-gradient(90deg, rgba(16,16,16,1) 100%, rgba(24,32,48,1) 100%);
+}
+
 body {
   margin: 0;
   box-sizing: border-box;
   color: #FFFFFF;
   font-family: "Kharkiv Tone";
-  background: linear-gradient(90deg, rgba(16,16,16,1) 100%, rgba(24,32,48,1) 100%);
+  background-image: url(img/logo-bg.svg);
 }
 
 .block {
-  background-image: url(img/logo-bg.svg);
   max-width: 1600px;
   margin: 0 auto;
   background-repeat: no-repeat;
@@ -21,7 +24,7 @@ body {
 .menu {
   display: flex;
   justify-content: space-between;
-  padding-top: 9vh;
+  padding-top: 7vh;
 }
 
 a {
@@ -36,13 +39,12 @@ a:hover {
 
 h1 {
   text-transform: lowercase;
-  font-size: calc(0.7em + 7vw);
+  font-size: calc(0.7em + 5vw);
 }
 
 p {
   color: #40E868;
   font-size: calc(0.5em + 1vw);
-  margin-bottom: 15vh;
   line-height: calc(0.5em + 3vh);
 }
 
