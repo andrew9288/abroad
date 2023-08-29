@@ -14,7 +14,6 @@ body {
 .block {
   background-image: url(img/logo-bg.svg);
   max-width: 1600px;
-  height: 100vh;
   margin: 0 auto;
   background-repeat: no-repeat;
   background-position: right; 
@@ -22,7 +21,7 @@ body {
 .menu {
   display: flex;
   justify-content: space-between;
-  padding-top: 64px;
+  padding-top: 9vh;
 }
 
 a {
@@ -37,7 +36,7 @@ a:hover {
 
 h1 {
   text-transform: lowercase;
-  font-size: calc(0.5em + 7vw);
+  font-size: calc(0.7em + 7vw);
 }
 
 p {
@@ -54,6 +53,7 @@ button {
   padding: 20px 60px;
   font-size: 34px;
   font-family: inherit;
+  margin-bottom: auto;
 }
 
 button:hover {
