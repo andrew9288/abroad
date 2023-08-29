@@ -21,13 +21,12 @@ body {
   max-width: 1600px;
   margin: 0 auto;
   height: 100vh;
-}
-
-main {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  padding: 0 30px;
 }
+
 .menu {
   display: flex;
   justify-content: space-between;
