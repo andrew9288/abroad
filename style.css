@@ -13,14 +13,15 @@ body {
   color: #FFFFFF;
   font-family: "Kharkiv Tone";
   background-image: url(img/logo-bg.svg);
+  background-repeat: no-repeat;
+  background-position: right; 
 }
 
 .block {
   max-width: 1600px;
   margin: 0 auto;
-  background-repeat: no-repeat;
-  background-position: right; 
 }
+
 .menu {
   display: flex;
   justify-content: space-between;
@@ -71,7 +72,7 @@ button:hover {
   main {
     margin: 0 30px;
   }
-  .block {
+  body {
     background-position: center; 
   }
 }  
